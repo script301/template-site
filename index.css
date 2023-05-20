@@ -68,7 +68,7 @@ header {
   transform: scaleX(1);
 }
 
-.wrapper {
+.container {
   position: relative;
   width: 700px;
   height: 840px;
@@ -82,13 +82,18 @@ header {
   align-items: center;
 }
 
-img {
-  position: relative;
+.subcontainer {
+  padding: 24px;
+  position: absolute;
+  color: white;
+}
+
+.container img {
+  position: absolute;
   display: flex;
   height: 200px;
-  text-align: center;
-  justify-content: center;
   padding: 18px;
+  align-self: flex-start;
 }
 
 .logo {

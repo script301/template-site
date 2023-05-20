@@ -1,5 +1,9 @@
 body {
-  color: white;
-  background: black;
-  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(./assets/img/fundo3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
